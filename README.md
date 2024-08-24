@@ -33,5 +33,6 @@ For any questions or issues, please open an issue on GitHub or contact the repos
 
 ## Contributors
 Niranjan Sarpangala, Sean Fancher, Prashant Purohit, Eleni Katifori
+
 Univerity of Pennsylvania, Philadelphia
 
