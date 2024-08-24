@@ -16,7 +16,6 @@ This repository contains code for simulating and analyzing mechanical networks, 
 - codes are in src/ folder
 - example jupyter notebooks are in notebooks folder
 
-```
 
 ## Contributing
 
