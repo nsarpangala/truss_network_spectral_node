@@ -2,7 +2,8 @@
 
 ## Overview
 
-This repository contains code for simulating and analyzing mechanical networks, specifically focusing dynamics of joints in Fourier space. The primary objective is to compute the Laplacian matrices for different network configurations and analyze the responses of nodes under various conditions.
+This repository contains code for simulating and analyzing mechanical networks, specifically focusing dynamics of joints in Fourier space. The primary objective is to compute the Laplacian matrices for different network configurations and analyze the responses of nodes under various conditions. 
+
 
 ## Features
 
@@ -26,10 +27,11 @@ Basic ones like numpy, matplotlib
 
 Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
 ## Contact
 
-For any questions or issues, please open an issue on GitHub or contact the repository owner.
+For any questions or issues, please open an issue on GitHub or contact the repository owner Niranjan Sarpangala <niras at sas dot upennn dot  edu> or Eleni Katiifori <katifori at sas dot upenn dot edu>
+
+## Contributors
+Niranjan Sarpangala, Sean Fancher, Prashant Purohit, Eleni Katifori
+Univerity of Pennsylvania, Philadelphia
+
