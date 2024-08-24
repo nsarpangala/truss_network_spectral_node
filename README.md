@@ -17,6 +17,11 @@ This repository contains code for simulating and analyzing mechanical networks, 
 - example jupyter notebooks are in notebooks folder
 
 
+## Required python libraries
+
+Basic ones like numpy, matplotlib
+
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
