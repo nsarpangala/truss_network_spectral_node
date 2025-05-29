@@ -14,7 +14,7 @@ This repository contains code for simulating and analyzing mechanical networks, 
 </div>
 
 
-## Features
+## Features presented in this repository
 
 - **Laplacian Matrix Computation**: Functions to compute the Laplacian matrix for the Truss network based method we developed and corresponding balls-and-springs models.
 - **Impedance Analysis**: Analysis of node responses based on varying impedance values for different rods in the network, as an example is provided in example_problems folder.
