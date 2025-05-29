@@ -1,3 +1,5 @@
+[![Python application](https://github.com/nsarpangala/truss_network_spectral_node/actions/workflows/python-app.yml/badge.svg)](https://github.com/nsarpangala/truss_network_spectral_node/actions/workflows/python-app.yml)
+
 # Repository Description
 
 ## Overview
