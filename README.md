@@ -6,6 +6,7 @@
 
 This repository contains code for simulating and analyzing mechanical networks, specifically focusing on the dynamics of joints in Fourier space. We follow a graph Laplacian approach for computing mechanical responses.
 
+[Disordered_spring_truss_comparisionv2.pdf](https://github.com/user-attachments/files/20510337/Disordered_spring_truss_comparisionv2.pdf)
 
 ## Features
 
