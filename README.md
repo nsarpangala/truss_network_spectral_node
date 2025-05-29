@@ -65,6 +65,7 @@ python example_problems/loop_impedance_displacement_boundary.py
 This will create a folder called `data/Square_Crossbar_Lambda2_constant_mass/` which has a plot of the network 'network.png' and response of the network as a function of impedance of crossbar. The plots should look as follows.
 
 
+<img src="https://github.com/user-attachments/assets/37058024-7a33-4067-968d-abde23fa05d4" alt="example image" width="800"/>
 
 ## Contributing
 
