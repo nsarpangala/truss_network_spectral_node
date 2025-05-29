@@ -4,14 +4,13 @@
 
 ## Overview
 
-This repository contains code for simulating and analyzing mechanical networks, specifically focusing dynamics of joints in Fourier space. The primary objective is to compute the Laplacian matrices for different network configurations and analyze the responses of nodes under various conditions. 
+This repository contains code for simulating and analyzing mechanical networks, specifically focusing on the dynamics of joints in Fourier space. We follow a graph Laplacian approach for computing mechanical responses.
 
 
 ## Features
 
-- **Laplacian Matrix Computation**: Functions to compute the Laplacian matrix for the Truss network based method we developed and corresponsinding balls-and-springs models.
-- **Network Configuration**: Tools to define and manipulate network configurations, including node positions and edge connections.
-- **Impedance Analysis**: Analysis of node responses based on varying impedance values for different rods in the network as an example
+- **Laplacian Matrix Computation**: Functions to compute the Laplacian matrix for the Truss network based method we developed and corresponding balls-and-springs models.
+- **Impedance Analysis**: Analysis of node responses based on varying impedance values for different rods in the network, as an example is provided in example_problems folder.
 - **Boundary Conditions**: Handling of fixed coordinates and boundary conditions in the network.
 
 ## Files
@@ -26,7 +25,7 @@ Contributions are welcome! Please fork the repository and submit pull requests f
 
 ## Contact
 
-For any questions or issues, please open an issue on GitHub or contact the repository owner Niranjan Sarpangala <niras at sas dot upennn dot  edu> or Eleni Katiifori <katifori at sas dot upenn dot edu>
+For any questions or issues, please open an issue on GitHub or contact Niranjan Sarpangala <niras at sas dot upennn dot  edu> or Eleni Katiifori <katifori at sas dot upenn dot edu>
 
 ## Contributors
 Niranjan Sarpangala, Sean Fancher, Prashant Purohit, Eleni Katifori
