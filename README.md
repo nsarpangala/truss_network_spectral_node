@@ -6,7 +6,7 @@
 
 This repository contains code for simulating and analyzing mechanical networks, specifically focusing on the dynamics of joints in Fourier space. We follow a graph Laplacian approach for computing mechanical responses.
 
-<img src="https://github.com/user-attachments/assets/8a1ad73a-148e-400e-861c-da62169d3e1d" alt="Description" width="200"/>
+<img src="https://github.com/user-attachments/assets/8a1ad73a-148e-400e-861c-da62169d3e1d" alt="Comparison between the lumped mass matrix method (balls and springs) and the truss network method in a disordered network (inset)." width="400"/>
 
 ## Features
 
