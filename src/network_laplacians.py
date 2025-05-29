@@ -85,18 +85,6 @@ def laplacian_balls_and_springs(dimensions, number_joints, edges, unit_vector_ma
     return D
 
 
-def test_laplacian(dimensions, number_joints, edges, capital_Lambda, w, density_matrix, A_matrix, tau_matrix, length_matrix, unit_vector_matrix):
-    '''dimensions, capital_Lambda, w, number_joints, edges, tau_matrix, unit_vector_matrix'''
-    m= 10
-    mues, nues = np.where(edges==1)
-    id = 0
-    mu = mues[0]
-    nu = nues[0]
-    k=200
-    #k = capital_Lambda[mu,nu]/tau_matrix[mu, nu]
-    D= np.array([[-1.0*m*w**2+k,-1.0*k],[-1.0*k,-1.0*m*w**2+k]])
-    return D
-
 def laplacian_pure_elastic_single_filament(w, cL, tau):
     '''dimensions, number_joints, edges,unit_vector_matrix, w, capital_Lambda, tau'''
     if abs(w)>1e-8:
