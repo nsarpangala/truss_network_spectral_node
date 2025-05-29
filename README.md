@@ -23,7 +23,47 @@ This repository contains code for simulating and analyzing mechanical networks, 
 ## Files
 
 - codes are in src/ folder
-- example jupyter notebooks and python script are in example_problems folder
+- Example Jupyter notebooks and Python script are in example_problems folder
+
+## Installation and Use
+
+Clone the repository
+```
+git@github.com:nsarpangala/truss_network_spectral_node.git
+```
+
+Change directory to the project directory
+```
+cd truss_network_spectral_node
+```
+
+Create a new Python environment and install required libraries.
+```
+conda create --name test_env python=3.9
+conda activate test_env
+pip install -r requirements.txt
+```
+
+## Testing
+
+To check if everything is working correctly, you can can run pytest
+
+Install pytest library
+```
+pip install pytest
+```
+Run pytest on the terminal and ensure the tests are passing successfully
+```
+pytest
+```
+
+## Example use
+
+```
+python example_problems/loop_impedance_displacement_boundary.py
+```
+This will create a folder called `data/Square_Crossbar_Lambda2_constant_mass/` which has a plot of the network 'network.png' and response of the network as a function of impedance of crossbar. The plots should look as follows.
+
 
 
 ## Contributing
