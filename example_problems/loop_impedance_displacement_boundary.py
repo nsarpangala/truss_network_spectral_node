@@ -69,16 +69,19 @@ def run_simulation(simname,w):
         unit_vector_matrix,tau_matrix, capital_Lambda_matrix, unit_vector_matrix_reshaped = assign_square_network_vert_lambda2(dimensions, number_joints, edges, node_positions, tau_1,tau_2,caps_lam_1, caps_lam_2)
 
         D_truss = laplacian_pure_elastic(dimensions, number_joints, edges,unit_vector_matrix, w, capital_Lambda_matrix, tau_matrix)
+
+        #Solve network response with fixed boundary conditions (fixed coordinates are listed in bc)
         D_truss = np.delete(D_truss, bc, axis=0)
         D_truss = np.delete(D_truss, bc, axis=1)
         A22 = D_truss[1:,1:]
         A21 = D_truss[1:,0]
         RHS = P2 - np.dot(A21,u1)
         U2 = np.linalg.solve(A22,RHS)
-        u_til = np.insert(U2, 0, u1)
+        u_til = np.insert(U2, 0, u1) # full solution util = [u1, U2]
         #u_til = np. linalg.solve(D_truss, vect_P_til)
+        #insert 0 for all fixed coordinates
         for ii in range(len(bc)):
-            u_til = np.insert(u_til, bc[ii], 0)
+            u_til = np.insert(u_til, bc[ii], 0) 
         Node_1_response.append(u_til[0])
         l = len(u_til)
 
