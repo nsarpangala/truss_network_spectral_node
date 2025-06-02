@@ -1,10 +1,10 @@
 [![Python application](https://github.com/nsarpangala/truss_network_spectral_node/actions/workflows/python-app.yml/badge.svg)](https://github.com/nsarpangala/truss_network_spectral_node/actions/workflows/python-app.yml)
 
-# Repository Description
+# Network Laplacian Approach to Computing Mechanical Responses of Truss Structures
 
 ## Overview
 
-This repository contains code for computing dynamical responses of truss networks. We follow a graph Laplacian approach for computing mechanical responses spectrally (Fourier space in time) as explained in the paper (Link).
+This repository contains code for computing dynamical responses of truss networks. We follow a network Laplacian approach for computing mechanical responses spectrally (Fourier space in time) as explained in the paper (Link).
 
 <div style="display: inline-block; text-align: center;">
 <img src="https://github.com/user-attachments/assets/8a1ad73a-148e-400e-861c-da62169d3e1d" alt="Comparison between the lumped mass matrix method (balls and springs) and the truss network method in a disordered network (inset)." width="500"/>
