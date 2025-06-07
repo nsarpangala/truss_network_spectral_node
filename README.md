@@ -66,6 +66,11 @@ This will create a folder called `data/Square_Crossbar_Lambda2_constant_mass/` w
 
 <img src="https://github.com/user-attachments/assets/37058024-7a33-4067-968d-abde23fa05d4" alt="example image" width="800"/>
 
+## Try it on Binder
+Click to launch:
+
+[![Binder](https://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/nsarpangala/my-cool-repo/main?filepath=notebooks/example.ipynb](https://mybinder.org/v2/gh/nsarpangala/truss_network_spectral_node/20bdd62d443e40a6dc1704f745c4f01d1925e85e?urlpath=lab%2Ftree%2Fnotebooks%2Floop_impedance.ipynb
+)
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
